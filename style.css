@@ -1,11 +1,13 @@
 .navbar-brand {
    font-size: 2.5em !important;
     font-family: 'Modern Antiqua', cursive;
+    margin-top:10px; 
 }
 
 .navbar-center {
     font-size: 1.5em;
      font-family: 'Modern Antiqua', cursive;
+     margin-top:15px !important;
 }
 
 /*For Tablet*/
@@ -28,8 +30,9 @@
 @media screen and (max-width:480px) {
    
     .navbar-brand {
-   font-size: 1.5em !important; 
-   font-family: 'Modern Antiqua', cursive;
+    font-size: 1.5em !important; 
+    font-family: 'Modern Antiqua', cursive;
+    margin-top: -3px !important;
     }
     
     .navbar-right {
@@ -62,38 +65,19 @@
 }
 
 
-/*BODY STYLE OF PAGE*/
+/*Index BODY STYLE OF PAGE*/
 
-/* Jumbotron Image*/
-
-.jumbotron {
-    background: url(img/download.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: -20px;
-    height: 600px;
-    text-align: center;
-    font-family: 'Modern Antiqua', cursive;
+.carousel {
+  margin-top: -25px;
+  max-height: 600px;
+  overflow: hidden; 
+  background-position: center;
 }
+  .item img {
+    width: 100%;
+    height: auto;
+  }
 
-/*IG88's Profile Picture*/
-
-.profile {
-    border-radius: 50%;
-    height; 200px;
-    width: 200px;
-    margin-bottom: -950px;
-}
-
-/*IG88's Profile Picture on mobile*/
-
-@media screen and (max-width:480px) {
-    .profile {
-        height: 150px;
-        width: 150px;
-        margin-bottom: -950px;
-    }
-}
 
 .about {
     text-align: center;
@@ -102,4 +86,112 @@
 
 .about > p {
     font-size: 20px;
+}
+
+
+.carousel-inner .img2 {
+  margin-top: -200px;
+    }
+
+.carousel-inner .img3 {
+   margin-top: -400px; 
+    }
+
+@media screen and (min-width: 482px) and (max-width: 1100px) {
+    
+    .carousel-inner .img2  {
+        margin-top: -100px;
+    }   
+    
+    .carousel-inner .img3  {
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    
+    .carousel-inner .img2 {
+   margin-top: -75px;
+    }
+    
+    .carousel-inner .img3 {
+     margin-top: -100px; 
+     overflow: hidden;
+     height: 325px;
+    }
+}
+
+/*Caption for carsouel title in sldies*/
+
+.carousel-caption {
+    margin-bottom: 25% !important;
+    font-family: 'Modern Antiqua', cursive;
+}
+
+
+.title {
+    font-size: 50px;
+}
+
+@media screen and (max-width:480px) {
+  .carousel-caption {
+    margin-bottom: 25% !important;
+    font-family: 'Modern Antiqua', cursive;
+}
+
+
+.title {
+    font-size: 15px;
+    margin-top: -75px !important;
+    }  
+}
+
+/*About me section on home page*/
+
+.about-me {
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 20px;
+}
+
+.about-me img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top:25px;
+}
+
+@media screen and (max-width:480px) {
+   .about-me p {
+    font-size: 16px;
+}
+    
+    
+@media screen and (max-width:480px) {    
+.carousel {
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}
+  .item img {
+  width: auto;
+  height: 400px;
+  max-height: 400px;
+    }
+}
+    
+@media screen and (min-width: 482px) and (max-width: 1100px) {
+    
+.carousel {
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}
+  .item img {
+  width: auto;
+  height: 400px;
+  max-height: 400px;
+    }
 }
