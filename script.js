@@ -1,8 +1,10 @@
 
 //for the carsouel
-$(function(){
+$(document).ready(function(){
 $('.carousel-home-page').carousel()
 });
 
 //
 
+
+		
