@@ -194,12 +194,6 @@
     font-size: 16px;
 }
     
-/*RESPONSIVE IMAGE GALELRY ON  GALLERY.HTML*/
-  .w3-quarter img{
-        margin-bottom: -6px; cursor: pointer
-    }
-  .w3-quarter img:hover{
-    opacity: 0.6; 
-    transition: 0.3s
-    }
-  
+   
+
+    
